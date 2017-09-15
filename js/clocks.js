@@ -26,8 +26,9 @@ function metronome() {
 
   // 2: on affiche l'heure dans notre objet "horloge"
 
-  document.getElementById("horloge").innerHTML = num2Letters(seconde);
-
+  document.getElementById("seconde").innerHTML = num2Letters(seconde);
+  document.getElementById("minute").innerHTML = num2Letters(minute);
+	document.getElementById("heure").innerHTML = num2Letters(heure);
 
 
 

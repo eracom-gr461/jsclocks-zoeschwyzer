@@ -21,8 +21,21 @@
 
 html {
 	font-family: notcouriersans, monospace;
+	font-size: 4.5vw;
+}
+time {
+	position: absolute;
+	width: 33.3vw;
+	text-transform: capitalize;
 }
 
+#minute {
+	left: 33.3vw;
+}
+
+#seconde {
+	left: 66.6vw;
+}
 
 /*
  * Définition du modèle de boîte
@@ -35,4 +48,3 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-

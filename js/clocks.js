@@ -30,6 +30,14 @@ function metronome() {
   document.getElementById("minute").innerHTML = num2Letters(minute);
 	document.getElementById("heure").innerHTML = num2Letters(heure);
 
+	// postion modifiée en fonction de l'heure
+	document.getElementById("heure").style.top = (heure*4.13)+'%';
+
+	// postion modifiée en fonction des minutes
+	document.getElementById("minute").style.top = (minute*1.61)+'%';
+
+	// postion modifiée en fonction de secondes
+	document.getElementById("seconde").style.top = (seconde*1.61)+'%';
 
 
 }
